@@ -1,0 +1,15 @@
+{
+  "people": ["Dana", "Eli", "Fay", "Gus"],
+  "lines": [
+    {"item": "Nachos", "price": "13.00", "qty": "1", "kind": "food", "shared_by": ["Dana", "Eli", "Fay"]},
+    {"item": "Steak", "price": "30.00", "qty": "1", "kind": "food", "shared_by": ["Dana"]},
+    {"item": "Tacos", "price": "15.00", "qty": "1", "kind": "food", "shared_by": ["Eli"]},
+    {"item": "House wine", "price": "9.00", "qty": "2", "kind": "alcohol", "shared_by": ["Fay", "Gus"]},
+    {"item": "Soda", "price": "3.00", "qty": "1", "kind": "food", "shared_by": ["Gus"]}
+  ],
+  "food_tax": "8",
+  "alcohol_tax": "10",
+  "tip": "20",
+  "coupons": [{"kind": "percent", "value": "25", "items": ["Steak", "Nachos"]}],
+  "treat": []
+}

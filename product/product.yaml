@@ -1,0 +1,13 @@
+_ > nanoagent.plugin.v0001.ProductConfig:
+tagline: "Split a group dinner bill to the cent, under rules that leave no argument"
+summary: "Bill Splitter hands an agent a group dinner receipt and asks what each person owes. It must split shared dishes among only who ate them, apply the coupon to the right items, tax food and alcohol at their own rates, tip on the bill before the coupon, cover a treated guest's share, and round so the shares add up to the total exactly. A deterministic verifier recomputes every share and names each wrong one."
+highlights:
+  - "Exact arithmetic throughout: every share is computed in fractions and rounded once"
+  - "Leftover cents go to the largest remainders, so the shares always add up to the total"
+  - "Two tempting shortcuts: a tool that splits the total evenly, and one that rounds each share on its own"
+  - "Runs offline on bundled receipts: the same verdict every time"
+steps:
+  - "Ask the chat to split one of the bundled receipts, such as dinner-2.json"
+  - "The agent reads the receipt: who shared what, the coupon, tax rates, tip and treat"
+  - "It works out each share exactly, with a calculator tool, rounds as the rules say and submits"
+  - "The verifier recomputes the bill and names any share it got wrong"

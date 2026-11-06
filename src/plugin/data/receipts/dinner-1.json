@@ -1,0 +1,14 @@
+{
+  "people": ["Ana", "Ben", "Cleo"],
+  "lines": [
+    {"item": "Pasta", "price": "14.00", "qty": "1", "kind": "food", "shared_by": ["Ana"]},
+    {"item": "Burger", "price": "12.00", "qty": "1", "kind": "food", "shared_by": ["Ben"]},
+    {"item": "Salad", "price": "10.00", "qty": "1", "kind": "food", "shared_by": ["Cleo"]},
+    {"item": "Fries", "price": "6.00", "qty": "1", "kind": "food", "shared_by": ["Ana", "Ben", "Cleo"]}
+  ],
+  "food_tax": "8.25",
+  "alcohol_tax": "10",
+  "tip": "18",
+  "coupons": [],
+  "treat": []
+}

@@ -1,0 +1,12 @@
+{
+  "people": ["Hana", "Ivan", "Jo"],
+  "lines": [
+    {"item": "Pizza", "price": "10.00", "qty": "1", "kind": "food", "shared_by": ["Hana", "Ivan", "Jo"]},
+    {"item": "Brownie", "price": "4.00", "qty": "1", "kind": "food", "shared_by": ["Ivan"]}
+  ],
+  "food_tax": "0",
+  "alcohol_tax": "0",
+  "tip": "0",
+  "coupons": [{"kind": "amount", "value": "5.00", "items": ["Brownie"]}],
+  "treat": []
+}

@@ -1,0 +1,14 @@
+{
+  "people": ["Kai", "Lena", "Mo", "Noor"],
+  "lines": [
+    {"item": "Curry", "price": "16.00", "qty": "1", "kind": "food", "shared_by": ["Kai"]},
+    {"item": "Birthday cake", "price": "8.00", "qty": "1", "kind": "food", "shared_by": ["Kai", "Lena", "Mo"]},
+    {"item": "Beer", "price": "6.00", "qty": "2", "kind": "alcohol", "shared_by": ["Mo"]},
+    {"item": "Noodles", "price": "14.00", "qty": "1", "kind": "food", "shared_by": ["Lena"]}
+  ],
+  "food_tax": "7.5",
+  "alcohol_tax": "10",
+  "tip": "15",
+  "coupons": [{"kind": "amount", "value": "6.00", "items": ["Curry", "Noodles"]}],
+  "treat": ["Lena"]
+}
